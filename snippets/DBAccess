@@ -1,0 +1,18 @@
+	////scripts.CreateUsers()
+	////scripts.Migrate()
+	//
+	//var user models.User
+	//var ahaMoments models.AhaMoment
+	//
+	//db.First(&user, 1)
+	//
+	//fmt.Println(user.UserName, user.Password, user.AhaMoments)
+	//db.Model(&ahaMoments).AddForeignKey("author", "users(id)", "CASCADE", "RESTRICT")
+	//db.Model(&user).Related(&user.AhaMoments, "author")
+	//
+	//fmt.Println(user.AhaMoments)
+	//
+	//for _, m := range user.AhaMoments {
+	//	fmt.Println(m.Text)
+	//}
+	//fmt.Println("Server is working!")
